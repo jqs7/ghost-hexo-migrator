@@ -1,0 +1,9 @@
+builds:
+  - binary: ghost-hexo-migrator
+    goos:
+      - windows
+      - darwin
+      - linux
+    goarch:
+      - amd64
+      - 386
